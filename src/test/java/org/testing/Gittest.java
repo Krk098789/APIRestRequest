@@ -33,7 +33,7 @@ public class Gittest extends Baseclass
 	public void getRepo()
 	{ 
 		RequestSpecification reqSpec = RestAssured.given();
-     reqSpec.get("users/Krk098789/repos").then().assertThat().statusCode(200).body("[0].name",equalTo("Rk123")).log().all();
+     reqSpec.get("users/Krk098789/repos").then().assertThat().statusCode(200).body("[0].name",equalTo("APIRestRequest")).log().all();
 	}
 	@Test(priority = 2)
 	private void createUser() throws IOException 
