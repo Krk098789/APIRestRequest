@@ -5,7 +5,10 @@
     <classes>
       <class name="org.testing.Gittest">
         <methods>
+          <include name="createUser"/>
+          <include name="deleteUser"/>
           <include name="getRepo"/>
+          <include name="updateUser"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- org.testing.Gittest -->

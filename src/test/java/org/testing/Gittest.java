@@ -23,7 +23,7 @@ public class Gittest extends Baseclass
 	{
 		RestAssured.baseURI = getproperties("BaseURI");
 	}
-	@Test(priority = 0);;----
+	@Test(priority = 0)
        public void getUser()
 	{
 		RequestSpecification reqSpec = RestAssured.given();
